@@ -7,11 +7,11 @@ const Notification = ({ className, title }) => {
     border-n-1/10 rounded-2xl gap-5`}>
 
       <img
-      src={notification1}
-      width={62}
-      height={62}
-      className="rounded-xl"
-      alt="image"
+        src={notification1}
+        width={62}
+        height={62}
+        className="rounded-xl"
+        alt="image"
       />
 
       <div className="flex-1">
@@ -23,11 +23,11 @@ const Notification = ({ className, title }) => {
               <li key={index} className="flex w-6 h-6 border-2 border-n-12 rounded-full
               overflow-hidden" >
                 <img
-                src={item}
-                className="w-full"
-                width={20}
-                height={20}
-                alt={item}
+                  src={item}
+                  className="w-full"
+                  width={20}
+                  height={20}
+                  alt={item}
                 />
               </li>
             ))}

@@ -10,8 +10,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-        title="Generative AI made for creators."
-        text="Brainwave unlocks the potential of AI-powered applications"
+          title="Generative AI made for creators."
+          text="Brainwave unlocks the potential of AI-powered applications"
         />
 
         <div className="relative">
@@ -20,11 +20,11 @@ const Services = () => {
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5
             xl:w-auto">
               <img
-              className="w-full h-full object-cover md:object-right"
-              width={800}
-              height={730}
-              src={service1}
-              alt="Smartest AI"
+                className="w-full h-full object-cover md:object-right"
+                width={800}
+                height={730}
+                src={service1}
+                alt="Smartest AI"
               />
             </div>
 
@@ -36,7 +36,7 @@ const Services = () => {
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li key={index} className="flex items-start py-4 border-t border-n-6">
-                    <img width={24} height={24} src={check}/>
+                    <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
@@ -52,11 +52,11 @@ const Services = () => {
             overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                className="h-full w-full object-cover"
-                width={630}
-                height={750}
-                src={service2}
-                alt="robot"
+                  className="h-full w-full object-cover"
+                  width={630}
+                  height={750}
+                  src={service2}
+                  alt="robot"
                 />
               </div>
 
@@ -83,15 +83,15 @@ const Services = () => {
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
-                    key={index}
-                    className={`rounded-2xl flex items-center justify-center
+                      key={index}
+                      className={`rounded-2xl flex items-center justify-center
                     ${index === 2 ? 'w-[3rem] h-[3rem] p-0.25 bg-conic-gradient rounded-2xl md:w-[4.5rem] md:h-[4.5rem]' : 'flex w-10 h-10 bg-n-6 md:w-15 md:h-15'}`}>
-                      <div className={index === 2 ?'flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]' : ''}>
+                      <div className={index === 2 ? 'flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]' : ''}>
                         <img
-                        src={item}
-                        width={24}
-                        height={24}
-                        alt={item}
+                          src={item}
+                          width={24}
+                          height={24}
+                          alt={item}
                         />
                       </div>
                     </li>
@@ -102,11 +102,11 @@ const Services = () => {
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden
               md:h-[25rem]">
                 <img
-                className="w-full h-full object-cover"
-                width={520}
-                height={400}
-                src={service3}
-                alt="Scary robot"
+                  className="w-full h-full object-cover"
+                  width={520}
+                  height={400}
+                  src={service3}
+                  alt="Scary robot"
                 />
 
                 <VideoChatMessage />

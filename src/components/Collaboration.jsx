@@ -16,17 +16,17 @@ const Collaboration = () => {
               <li className="mb-3 py-3 key" key={item.id}>
                 <div className="flex items-center">
                   <img src={check}
-                  width={24}
-                  height={24}
-                  alt="check"
+                    width={24}
+                    height={24}
+                    alt="check"
                   />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
                 {item.text && (
-                    <p className="body-2 mt-3 text-n-4">
-                      {item.text}
-                    </p>
-                  )}
+                  <p className="body-2 mt-3 text-n-4">
+                    {item.text}
+                  </p>
+                )}
               </li>
             ))}
           </ul>
@@ -47,10 +47,10 @@ const Collaboration = () => {
                 <div className="flex items-center justify-center w-full h-full
                 bg-n-8 rounded-full">
                   <img
-                  src={brainwaveSymbol}
-                  width={48}
-                  height={48}
-                  alt="brainwave"
+                    src={brainwaveSymbol}
+                    width={48}
+                    height={48}
+                    alt="brainwave"
                   />
                 </div>
               </div>
@@ -63,11 +63,11 @@ const Collaboration = () => {
                   <div className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem]
                     bg-n-7 border border-n-1/15 rounded-xl -rotate-${index * 45}`}>
                     <img
-                    className="m-auto"
-                    width={app.width}
-                    height={app.height}
-                    src={app.icon}
-                    alt={app.title}
+                      className="m-auto"
+                      width={app.width}
+                      height={app.height}
+                      src={app.icon}
+                      alt={app.title}
                     />
                   </div>
                 </li>

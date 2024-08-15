@@ -19,13 +19,13 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-              <div className="h3">$</div>
-              <div className="text-[5.5rem] leading-none font-bold">{item.price}</div>
+                <div className="h3">$</div>
+                <div className="text-[5.5rem] leading-none font-bold">{item.price}</div>
               </>
             )}
           </div>
           <Button className="w-full mb-6" href={item.price ? '/pricing' : 'mailto:contact@amonbrainwave.gmail'}
-          white={!!item.price}
+            white={!!item.price}
           >
             {item.price ? 'Get started' : 'Contact us'}
           </Button>
@@ -34,10 +34,10 @@ const PricingList = () => {
             {item.features.map((feature, index) => (
               <li key={index} className="flex items-start py-5 border-t border-n-6">
                 <img
-                src={check}
-                width={24}
-                height={24}
-                alt="Check"
+                  src={check}
+                  width={24}
+                  height={24}
+                  alt="Check"
                 />
                 <p className="body-2 ml-4">{feature}</p>
               </li>
