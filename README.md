@@ -1,8 +1,62 @@
-# React + Vite
+# AI Service website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+## Tech Stack:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+
+- Tailwind CSS
+
+- Vite
+
+
+## Introduction
+
+ This is an AI Service website made using commonly applied techs like React.js,Tailwind CSS and Vite.
+
+
+## Features:
+
+- ##### A Smooth Mouse and Scroll parallax as shown in the Hero Section
+
+- ##### Detailed Hover effect on Card elements
+
+- ##### Newest UI designs such as bento boxes
+
+- ##### Interactive Hamburger menu
+
+- ##### A Responsive website which ensures functionality across all devices
+
+
+## Requirements
+
+**Have these requirements downloaded on your machine:**
+
+- Git
+
+- Node.js
+
+- npm
+
+**Cloning the Repository**
+
+```shell
+git clone https://github.com/AmonM03/ai-website.git
+```
+
+```shell
+cd ai-website
+```
+
+**Installation**
+
+```shell
+npm install
+```
+
+**Running the project**
+
+```shell
+npm run dev
+```
